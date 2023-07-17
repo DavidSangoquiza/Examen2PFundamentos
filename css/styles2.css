@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .box {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  .box p {
+    font-size: 14px;
+    color: #777777;
+  }
+  
+  /* Estilos específicos de tecnología */
+  .container {
+    background-color: #f9f9f9;
+  }
+  
+  .box {
+    transition: all 0.3s ease;
+  }
+  
+  .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box h2 {
+    font-weight: bold;
+  }
+  
+  .box p {
+    line-height: 1.4;
+  }
+
+  #titulo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  
+  
